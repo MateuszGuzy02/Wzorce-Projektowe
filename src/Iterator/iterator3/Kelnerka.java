@@ -9,7 +9,6 @@ public class Kelnerka {
     public Kelnerka() {
         menus = new ArrayList<>();
     }
-
     public void addMenu(Menu menu) {
         menus.add(menu);
     }

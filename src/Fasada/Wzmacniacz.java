@@ -18,15 +18,12 @@ public class Wzmacniacz {
     public void wlacz() {
         System.out.println("Wzmacniacz włączony");
     }
-
     public void wylacz() {
         System.out.println("Wzmacniacz wyłączony");
     }
-
     public void ustawStereo() {
         System.out.println("Wzmacniacz ustawiony na stereo");
     }
-
     public void ustawGlosnosc(int poziom) {
         System.out.println("Ustawianie głośności na " + poziom);
     }
