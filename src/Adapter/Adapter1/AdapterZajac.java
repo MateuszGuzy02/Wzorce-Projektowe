@@ -18,4 +18,5 @@ public class AdapterZajac implements Krolik {
         System.out.println("Tak je Zajac udajacy Krolika");
         zajac.jedzTrawe();
     }
+
 }

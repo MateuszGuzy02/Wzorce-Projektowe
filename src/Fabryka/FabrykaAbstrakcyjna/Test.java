@@ -10,5 +10,13 @@ public class Test {
 
         pizza = amerykanskaPizzeria.createPizza("serowa");
         System.out.println(pizza);
+
+        FabrykaSkladnikowPizzy fabryka;
+
+        fabryka = new AmerykanskaFabrykaSkladnikowPizzy();
+        Ciasto ciasto = fabryka.utworzCiasto();
+        Sos sos = fabryka.utworzSos();
+
+
     }
 }

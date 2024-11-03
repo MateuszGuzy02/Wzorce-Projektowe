@@ -9,7 +9,6 @@ public abstract class Kompozyt {
     public void add(Kompozyt kompozyt) {
         throw new UnsupportedOperationException("Operation not supported");
     }
-
     public void remove(Kompozyt kompozyt) {
         throw new UnsupportedOperationException("Operation not supported");
     }

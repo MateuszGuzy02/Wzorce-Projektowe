@@ -26,4 +26,5 @@ public class StanBrakGumy implements Stan {
     public void wydaj() {
         System.out.println("Błąd - Nie wydano gumy do żucia");
     }
+    
 }
